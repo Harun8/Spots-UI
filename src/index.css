@@ -18,6 +18,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.CardDiv {
+  background-color:  #d4efdf;
+}
 a {
   font-weight: 500;
   color: #646cff;
