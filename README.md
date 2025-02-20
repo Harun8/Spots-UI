@@ -7,3 +7,5 @@
 - USER Roles: GLobal Admin, Spotter, normal user
 
 - Reward system, for being a spotter
+
+- Tooltip explaining what the badges are, eg scenic is considered xxx
