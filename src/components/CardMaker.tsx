@@ -24,7 +24,7 @@ const CardMaker = () => {
 
     <Card className="w-[350px]">
     <div className="relative inline-block">
-      <img className="rounded-xl" src={teffish} alt="Descriptive Alt Text" />
+      <img className="rounded-t-xl" src={teffish} alt="Descriptive Alt Text" />
       <Badge 
         variant="scenic" 
       >
@@ -32,8 +32,7 @@ const CardMaker = () => {
       </Badge>
     </div>
           <CardHeader>
-            {/* <CardTitle>Create project</CardTitle>
-            <CardDescription>Deploy your new project in one-click.</CardDescription> */}
+ 
           </CardHeader>
          
           <CardContent>

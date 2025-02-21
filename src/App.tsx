@@ -7,6 +7,7 @@ import {
 } from "react-router";
 import HomePage from "./pages/HomePage";
 
+import { ThemeProvider } from "@material-tailwind/react";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -31,8 +32,11 @@ const router = createBrowserRouter(
 function App() {
   return (
     <>
+      {/* <ThemeProvider> */}
       <div className="App"></div>
       <RouterProvider router={router} />
+
+  {/* </ThemeProvider> */}
     </>
   );
 }
