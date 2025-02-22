@@ -13,13 +13,21 @@ const Gallery = () => {
               Discover More Than Just Places
             </p>
 
-        <div className="mt-10 flex items-center justify-center gap-3">
+        <div className="mt-10 flex items-center justify-center gap-12">
 
 
-          <Button variant="default"> Click </Button>
-          <Button> Click </Button>
-          <Button> Click </Button>
-          <Button> Click </Button>
+          <Button variant="green"> Scenic </Button>
+          <Button variant="green"> Café </Button>
+          <Button variant="green"> Sunrise </Button>
+
+          <Button variant="green"> Sunset </Button>
+
+          <Button variant="green"> Hidden spot </Button>
+
+
+          {/* <Button variant="green"> Click </Button>
+          <Button variant="green"> Click </Button>
+          <Button variant="green"> Click </Button> */}
 
 
         </div>
