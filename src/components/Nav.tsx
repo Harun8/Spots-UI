@@ -20,44 +20,46 @@ const Nav = () => {
         </svg> */}
     </div>
 
-{/* 
-    {!false ? (
+
+    {1==1 ? (
       <>
-        <Link
+        {/* <button
           className="hidden md:inline-block md:ml-auto md:mr-3 py-2 px-6 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-700 text-sm text-gray-900 dark:text-gray-200 font-bold  rounded-xl transition duration-200"
           href="/login"
           data-testid="login-btn">
           {t("login")}
-        </Link>
-        <Link
-          className="hidden md:inline-block py-2 px-5 bg-gray-800 hover:bg-gray-600 dark:bg-blue-950 dark:hover:bg-blue-800 text-sm text-white font-bold rounded-lg transition duration-200"
-          href="/signin">
-          {t("signup")}
-        </Link>
+          Login
+        </button> */}
+        
+        <button
+          className="hidden md:inline-block py-2 px-5 bg-green-800 hover:bg-green-900 dark:bg-blue-950 dark:hover:bg-blue-800 text-sm text-white font-bold rounded-lg transition duration-200"
+          // href="/signin"
+          >
+          {/* {t("signup")} */}
+          Login
+                  </button>
       </>
     ) : (
       <>
         <button
           className="hidden md:inline-block py-2 px-6 bg-gray-700 hover:bg-gray-800 dark:bg-blue-950 dark:hover:bg-blue-800 text-sm text-white font-bold rounded-xl transition duration-200"
-          onClick={async (e) => {
-            e.preventDefault();
-            setLoading(true);
-            const { error } = await supabase.auth.signOut();
-            setLoading(false);
-            router.refresh();
-            // if (!error) setSession(null);
-          }}
-          disabled={loading}>
-          {loading ? "Loading" : t("logout")}
+          // onClick={async (e) => {
+          //   e.preventDefault();
+          //   setLoading(true);
+          //   const { error } = await supabase.auth.signOut();
+          //   setLoading(false);
+          //   router.refresh();
+          //   // if (!error) setSession(null);
+          // }}
+          // disabled={loading}
+          >
+          Log out
         </button>
-        <Link
-          href="/login">
-          Login
-        </Link>
+
       </>
     )}
 
-     */}
+    
   </nav>
   )
 }

@@ -9,11 +9,11 @@ const Gallery = () => {
     <>
         <section className="px-8  pb-10">
       <div className="container mx-auto mb-20 text-center">
-      <p className='font-semibold text-left text-gray-700 text-3xl !leading-snug lg:mb-3 lg:text-5xl'>
+      {/* <p className='font-semibold text-left text-gray-700 text-3xl !leading-snug lg:mb-3 lg:text-5xl'>
               Discover More Than Just Places
-            </p>
+            </p> */}
 
-        <div className="mt-10 flex items-center justify-center gap-12">
+        <div className="flex items-center justify-center gap-12">
 
 
           <Button variant="green"> Scenic </Button>
